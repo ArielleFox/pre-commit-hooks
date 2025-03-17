@@ -17,7 +17,7 @@ See also: https://github.com/pre-commit/pre-commit
 Add this to your `.pre-commit-config.yaml`
 
 ```yaml
--   repo: https://github.com/ariellefox/pre-commit-hooks
+-   repo: https://github.com/ArielleFox/pre-commit-hooks
     rev: v5.0.0  # Use the ref you want to point at
     hooks:
     -   id: trailing-whitespace
