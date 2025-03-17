@@ -1,6 +1,9 @@
 [![build status](https://github.com/pre-commit/pre-commit-hooks/actions/workflows/main.yml/badge.svg)](https://github.com/pre-commit/pre-commit-hooks/actions/workflows/main.yml)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/pre-commit/pre-commit-hooks/main.svg)](https://results.pre-commit.ci/latest/github/pre-commit/pre-commit-hooks/main)
 
+Attention:
+This is a fork of https://github.com/pre-commit/pre-commit with modifications for the cybercraft project https://github.com/ArielleFox/cybercraft .
+
 pre-commit-hooks
 ================
 
@@ -14,7 +17,7 @@ See also: https://github.com/pre-commit/pre-commit
 Add this to your `.pre-commit-config.yaml`
 
 ```yaml
--   repo: https://github.com/pre-commit/pre-commit-hooks
+-   repo: https://github.com/ariellefox/pre-commit-hooks
     rev: v5.0.0  # Use the ref you want to point at
     hooks:
     -   id: trailing-whitespace
