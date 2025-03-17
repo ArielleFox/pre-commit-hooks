@@ -1,5 +1,5 @@
 from __future__ import annotations
-
+import os
 import argparse
 from collections.abc import Sequence
 
@@ -33,6 +33,10 @@ def main(argv: Sequence[str] | None = None) -> int:
     if private_key_files:
         for private_key_file in private_key_files:
             print(f'Private key found: {private_key_file}')
+            print(f'CyberCraft ==> Encrypting: {private_key_file}')
+            # Placeholder will get replaced with cybercraft command in the future
+            # For the time until yubiCrypt toolchain will be utilized https://github.com/ArielleFox/yubiCrypt
+            os.system(f' yubienCrypt {private_key_file}')
         return 1
     else:
         return 0
