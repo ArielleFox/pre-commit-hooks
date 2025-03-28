@@ -36,7 +36,7 @@ def main(argv: Sequence[str] | None = None) -> int:
             print(f'CyberCraft ==> Encrypting: {private_key_file}')
             # Placeholder will get replaced with cybercraft command in the future
             # For the time until yubiCrypt toolchain will be utilized https://github.com/ArielleFox/yubiCrypt
-            os.system(f' cybercraft --encrypt {private_key_file}')
+            os.system(f'cybercraft --encrypt {private_key_file}')
         return 1
     else:
         return 0
